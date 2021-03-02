@@ -8,7 +8,7 @@ export default function Home({articles}) {
         <title>My Blog website</title>
         <meta name='keywords' content='web development, programming' />
       </Head>
-      <ArticleList articles={articles} />
+      <ArticleList />
     </div>
   )
 }

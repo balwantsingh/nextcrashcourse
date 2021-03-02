@@ -1,14 +1,13 @@
 import Head from 'next/head'
-import ArticleList from '../components/ArticleList'
-export default function Home({articles}) {
- // console.log(articles)
+
+export default function Home() {
   return (
     <div>
       <Head>
         <title>My Blog website</title>
         <meta name='keywords' content='web development, programming' />
       </Head>
-      <ArticleList articles={articles} />
+      <h1>Welcome to Next sfsdfsd</h1>
     </div>
   )
 }
